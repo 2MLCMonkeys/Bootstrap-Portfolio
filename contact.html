@@ -12,31 +12,28 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Student Bio</title>
 </head>
 
-<body background="images/fishnets-and-hearts.png" style="font-family: Arial, Helvetica, sans-serif; font-size:16pt;"
-    class="text-center">
+<body background="images/fishnets-and-hearts.png" class="text-center">
 
-    <div class="container">
-        <div class="fixed-top">
-            <h1 style="background-color:#4aaaa5; color:#ffffff;font-family: Georgia, 'Times New Roman', Times, serif;"
-                class="p-3 mb-0 border-bottom">Amber Charnley</h1>
+    <h1 id="heading" class="p-3 mb-0 border-bottom">Amber Charnley</h1>
+    
+        <div>
 
-            <nav style="background-color:#ffffff; color:#777777;"
-                class="nav  justify-content-center mt-0 border-bottom p-2">
-                <a class="nav-link text-muted border-right" href="index.html">About</a>
-                <a class="nav-link text-muted border-right" href="portfolio.html">Portfolio</a>
+
+            <nav class="nav  justify-content-center mt-0 border-bottom p-2">
+                <a class="nav-link text-muted border-right" href="index.html" id="aboutlink">About</a>
+                <a class="nav-link text-muted border-right" href="portfolio.html" id="portfoliolink">Portfolio</a>
                 <a class="nav-link text-muted" href="contact.html">Contact</a>
             </nav>
         </div>
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
+        <div class="container">
 
         <div class="card p-5 ml-4" style="width: 95%;">
             <h1 class="mt-2"
@@ -47,20 +44,23 @@
                 <form style="color:#666666;">
                     <div class="form-row p-2">
                         <div class="col-md-6">
-                                <label for="formGroupExampleInput">Name:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+                            <label for="formGroupExampleInput">Name:</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
                         </div>
                         <div class="col-md-6">
-                                <label for="formGroupExampleInput">Email:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="someone@gmail.com">
+                            <label for="formGroupExampleInput">Email:</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="someone@gmail.com">
                         </div>
-                    </div>    
-                        <div class="form-group p-2">
-                            <label for="exampleFormControlTextarea1">Message:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="color:#777777;;">Type Message Here</textarea>
-                        </div>
-                    
-                    <button type="button" class="btn btn-outline-secondary" style="background-color: #4aaaa5;color:#ffffff;">Submit</button>
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlTextarea1">Message:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            style="color:#777777;;">Type Message Here</textarea>
+                    </div>
+
+                    <button type="button" class="btn btn-outline-secondary"
+                        style="background-color: #4aaaa5;color:#ffffff;">Submit</button>
                 </form>
             </div>
         </div>
@@ -69,8 +69,7 @@
         <br>
         <br>
         <br>
-        <div class="card-footer fixed-bottom p-4"
-            style="background-color: #666666; border-top: solid; border-top-color:#4aaaa5; border-top-width: 5pt; color:#ffffff; font-size: 14pt;">
+        <div class="card-footer fixed-bottom p-4" id="footer">
             © Copyright
         </div>
     </div>
