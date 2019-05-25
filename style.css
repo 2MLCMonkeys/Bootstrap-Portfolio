@@ -127,9 +127,13 @@ h3 {
     }
     
     p{
-        font-size:12px;
+        font-size:14px;
     }
 
+    .form-control{
+        font-size:14px;
+    }
+    
     .card-body{
         margin-left: 0;
         padding-left: 0;
@@ -153,7 +157,6 @@ h3 {
 
     .imagecontainer{
         min-width: 175px;
-        
     }
     
     h3 {
