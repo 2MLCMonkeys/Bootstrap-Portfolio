@@ -21,15 +21,27 @@ nav {
     height: 70px;
 }
 
-a:hover{
+nav a:hover{
     color: #4aaaa5;
     font-size: 18pt;
 }
 
-a {
+nav a {
     color: #777777;
     cursor: pointer;
     text-decoration: none;
+}
+
+span a{
+    color: #cccccc;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+span a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 #aboutlink {
@@ -47,6 +59,19 @@ a {
 h1 {
     color:#4aaaa5; 
     font-family:Georgia, 'Times New Roman', Times, serif; text-align:left;
+}
+
+h5  {
+    text-shadow: 2px 2px #07746e;
+}
+
+.imagequote{
+    font-size: 16px;
+    text-shadow: 2px 2px black;
+}
+
+#chicklens{
+    width: 90%;
 }
 
 hr {
