@@ -28,8 +28,8 @@ your portfolio layout using the Bootstrap CSS Framework.
    Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site _(Hint: Check out the Bootstrap documentation)_
 
 ### Assignment Results Images
-[Title Page](/assets/images/Screenshot1.png)
+![Title Page](/assets/images/Screenshot1.png)
 
-[Portfolio Page](/assets/images/Screenshot2.png)
+![Portfolio Page](/assets/images/Screenshot2.png)
 
-[Contact Page](/assets/images/Screenshot3.png)
+![Contact Page](/assets/images/Screenshot3.png)
